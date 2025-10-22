@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Producto 1",
+    "price": 100,
+    "category": 2
+  },
+  {
+    "id": 2,
+    "name": "Producto W",
+    "price": 200
+  },
+  {
+    "id": 3,
+    "name": "Producto W",
+    "price": 300
+  },
+  {
+    "id": 4,
+    "name": "Producto W",
+    "price": 400
+  },
+  {
+    "id": 5,
+    "name": "Producto W",
+    "price": 500
+  },
+  {
+    "id": 6,
+    "name": "Producto W",
+    "price": 600,
+    "category": 3
+  },
+  {
+    "id": 7,
+    "name": "Producto W",
+    "price": 700,
+    "category": 3
+  },
+  {
+    "id": 8,
+    "name": "Producto W",
+    "price": 800,
+    "category": 3
+  },
+  {
+    "id": 13,
+    "name": "Producto W",
+    "price": 600,
+    "category": 3
+  },
+  {
+    "id": 14,
+    "name": "Producto W",
+    "price": 600,
+    "category": 3
+  },
+  {
+    "id": 16,
+    "name": "Producto W",
+    "price": 600,
+    "category": 3
+  },
+  {
+    "id": 17,
+    "name": "Producto W",
+    "price": 600,
+    "category": 3
+  },
+  {
+    "id": 18,
+    "name": "Producto W",
+    "price": 600,
+    "category": 3
+  },
+  {
+    "id": 19,
+    "name": "Producto W",
+    "price": 600,
+    "category": 3
+  }
+]
