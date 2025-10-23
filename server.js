@@ -45,9 +45,13 @@ app.use((err, req, res, next) => {
     res.status(500).send('¡Algo salió mal!');
 });
 
-// 4. INICIAR SERVIDOR
-app.listen(PORT, (req, res)=>{
-    console.log("");
-    console.log(`Servidor corriendo en http://localhost:${PORT}`)
-    console.log("");    
-})
+// 4. INICIAR SERVIDOR (solo en desarrollo local)
+if (!process.env.VERCEL) {
+    app.listen(PORT, (req, res)=>{
+        console.log("");
+        console.log(`Servidor corriendo en http://localhost:${PORT}`)
+        console.log("");    
+    });
+}
+
+export default app;
